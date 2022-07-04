@@ -1,0 +1,11 @@
+MYSTRING1='ABCDEFGHIJKLMNOPQURSTWXYZ'
+print(MYSTRING1)
+print(len(MYSTRING1))
+print(type(MYSTRING1))
+print(id(MYSTRING1))
+print(MYSTRING1[6])
+print(MYSTRING1[-12])
+print(MYSTRING1[:])
+print(MYSTRING1[-20:-2])
+print(MYSTRING1[-1:])
+print(MYSTRING1[1:])

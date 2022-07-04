@@ -1,0 +1,21 @@
+mylist=[21,'mohammed',296.22379333,10+6j,True,False]
+print(mylist)
+print(len(mylist))
+print(type(mylist))
+print(mylist[0:3])
+print(mylist[-1])
+print(mylist[:])
+mylist.append('new item')
+print(mylist)
+mylist.pop()
+print(mylist)
+mylist.remove(21)
+print(mylist)
+del mylist[-1]
+print(mylist)
+mylist[0]=12
+print(mylist)
+print(12 in mylist)
+print(21 in mylist)
+print(12 not in mylist)
+print(21 not in mylist)
